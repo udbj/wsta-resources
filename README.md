@@ -10,7 +10,7 @@ pip install --editable ./
 
 In Python interactive shell:
 
-> from fairseq load libbleu
+> from fairseq load libbleu\n
 > import torch
 > torch.hub.load('pytorch/fairseq', 'roberta.large.mnli')
 
