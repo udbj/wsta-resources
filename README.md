@@ -4,17 +4,19 @@ Used Docker to run PyLucene. [repo: coady/pylucene]
 
 Download and build fairseq:
 
-git clone https://github.com/pytorch/fairseq
-cd fairseq
-pip install --editable ./
+>git clone https://github.com/pytorch/fairseq
 
-In Python interactive shell:
+>cd fairseq
 
->>>from fairseq load libbleu
+>pip install --editable ./
 
->>>import torch
+In the Python interactive shell:
 
->>>torch.hub.load('pytorch/fairseq', 'roberta.large.mnli')
+>from fairseq load libbleu
+
+>import torch
+
+>torch.hub.load('pytorch/fairseq', 'roberta.large.mnli')
 
 After it downloads the model, close the Python shell. 
 Replace all files in ~/.cache/hub/pytorch_fairseq_master/ with the ones in the downloaded fairseq folder.
