@@ -10,11 +10,11 @@ pip install --editable ./
 
 In Python interactive shell:
 
-from fairseq load libbleu
+>>>from fairseq load libbleu
 
-import torch
+>>>import torch
 
-torch.hub.load('pytorch/fairseq', 'roberta.large.mnli')
+>>>torch.hub.load('pytorch/fairseq', 'roberta.large.mnli')
 
 After it downloads the model, close the Python shell. 
 Replace all files in ~/.cache/hub/pytorch_fairseq_master/ with the ones in the downloaded fairseq folder.
