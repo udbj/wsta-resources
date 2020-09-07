@@ -1,4 +1,4 @@
-# wsta-project
+# wsta-resources
 
 Used Docker to run PyLucene. [repo: coady/pylucene]
 
